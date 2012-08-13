@@ -1,7 +1,7 @@
 OPAlertView
 ============
 
-A simple subclass of UIAlertView that gives block based access to the dismissal events.
+A simple subclass of UIAlertView that gives block based access to the dismissal events. I chose to do this in a subclass instead of a category so that I didn't have do any hacky things with the objc runtime.
 
 ##Installation
 
