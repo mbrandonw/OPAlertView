@@ -1,4 +1,4 @@
-// OPEnumerable
+// OPAlertView
 //
 // Copyright (c) 2012 Brandon Williams (http://www.opetopic.com)
 //
@@ -24,7 +24,6 @@
 
 @interface OPAlertView (/*Private*/) <UIAlertViewDelegate>
 @property (nonatomic, strong) NSMutableArray *buttonHandlers;
-@property (nonatomic, strong) void(^cancelHandler)(UIAlertView*);
 @end
 
 @implementation OPAlertView

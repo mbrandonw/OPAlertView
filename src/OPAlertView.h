@@ -1,4 +1,4 @@
-// OPEnumerable
+// OPAlertView
 //
 // Copyright (c) 2012 Brandon Williams (http://www.opetopic.com)
 //
