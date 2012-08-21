@@ -56,7 +56,7 @@
 -(void) alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
     void(^handler)(UIAlertView*);
     handler = [self.buttonHandlers objectAtIndex:buttonIndex];
-    if ((NSNull*)handler != [NSNull null])
+    if ((__bridge void*)handler != (__bridge void*)[NSNull null])
         handler(self);
 }
 
